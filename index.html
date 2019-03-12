@@ -1,2 +1,27 @@
 <html>
+<head>
+  <title>Seeking Interaction</title>
+</head>
+<body>
+<style>
+  *{
+    background-color: #F8F8F8;
+  }
+  ul{
+    line-height: 2em;
+    font-size: 18px;
+  }
+</style>
+  <h1>Seeking Interaction</h1>
+  <h3><a href="https://bl.ocks.org/kerryrodden/raw/766f8f6d31f645c39f488a0befa1e3c8/">D3 Interaction Graph</a></h3>
+  <ul>
+    <li>The visualization is created with d3.</li>
+    <li>Uses <b>.sort</b> to turn the data into a d3 hierarchy.</li>
+    <li>Uses <b>.on("mouseover", function(){})</b> to fade all but the current sequence.</li>
+    <li>Uses <b>.transition()</b>, <b>.duration(1000)</b>, and <b>.style("opacity", 1)</b> to change each segment to full opacity.</li>
+    <li>Uses <b>group</b> to pair each "rect" and its corresponding "text" in the legend part.</li>
+    <li>Uses a D3 sunburst visualization (partition layout) with data that describes sequences of events.
+    </br >(D3 Sunburst is not coverd in chapter 9 and chapter 10.)</li>
+
+</body>
 </html>
